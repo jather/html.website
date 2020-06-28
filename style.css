@@ -48,14 +48,19 @@ body {
     background-color: #242424;
     color: #d9d9d9;
     font-family: 'charterregular', sans-serif;
-    text-align: center;
-    font-size: 15px;
+    
+    font-size: 20px;
   }
 
 a {
     color:LightPink;
  }
 h1{
-    font-size: 30px;
-    color:#e6e6e6;
+    font-size: 50px;
+    color:#eeeeee;
+}
+.container{
+    text-align: center;
+    width: 500px;
+    margin-top: 50px;
 }
