@@ -42,8 +42,8 @@ body {
     
     font-size: 20px;
     line-height: 30px;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
+    word-spacing: 0.03em;
+    letter-spacing: 0.015em;
   }
 
 a {
