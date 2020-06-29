@@ -8,9 +8,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'charterbold';
     src: url('/fonts/charter_bold-webfont.woff2') format('woff2'),
@@ -20,9 +17,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'charteritalic';
     src: url('/fonts/') format('woff2'),
@@ -31,9 +25,6 @@
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'charterregular';
@@ -50,11 +41,15 @@ body {
     font-family: 'charterregular', sans-serif;
     
     font-size: 20px;
+    line-height: 30px;
   }
 
 a {
     color:LightPink;
  }
+a:hover {
+    color:pink;
+}
 h1{
     font-size: 50px;
     color:#eeeeee;
