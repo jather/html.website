@@ -42,6 +42,8 @@ body {
     
     font-size: 20px;
     line-height: 30px;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
   }
 
 a {
