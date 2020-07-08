@@ -46,37 +46,43 @@ body {
     letter-spacing: 0.015em;
   }
 
+  main {
+      width:800px;
+      margin:auto;
+  }
 a {
-    color:LightPink;
+    color:#DD979B;
     text-decoration: none;
  }
 a:hover {
     color:coral;
 }
 h1{
-    font-size: 50px;
-    color:#eeeeee;
-}
-.container{
+    font-size: 70px;
+    color:#DDDDDD;
+    margin: 200px auto 100px auto;
     text-align: left;
-    width: 1000px;
-    margin: auto;
-    padding-top: 2cm;
+    width: 800px;
 }
+h2{
+    font-size: 40px;
+    color:#dddddd;
+}
+
 #navbar{
-    position: fixed;
-    bottom: 0px;
+    position: absolute;
+    top: 0px;
     left: 0px;
     width: 100%;
-    background-color:#444444;
     opacity: 80%;
+    margin-top: 40px;
 }
 nav ul{
     margin: 20px 0px 20px 0px;
-    padding: 5px 0px 5px 20%;
+    padding: 0px 0px 0px 30%;
 }
 nav li {
     font-size: 35px;
     display: inline;
-    margin-right: 8%;
+    margin-right: 2%;
   }

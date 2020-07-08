@@ -13,8 +13,30 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
-<h1 class="container"> Contact </h1>
-<div class="container">
-<p>Contact page.</p>
-</div>
+<h1> Contact </h1>
+<main>
+<p>
+  Message me about anything you want! If it's just a "hey thought your website was pretty cool", that's great too. 
+</p>
+<p>
+  <form
+    action="https://formspree.io/mpzyybaz"
+    method="POST"
+  >
+    <label for="youremail"> Your email: (for me to reply to) </label>
+    <br>
+    <input type="text" name="_replyto" id="youremail">
+    
+    <p>
+    <label for="message">Your message:</label>
+    <br>
+    <textarea name="message" id= "message" class="container" placeholder="(introduce yourself here, if you want)" style="width:800px;height:300px;"></textarea>
+    </p>
+    <!-- your other form fields go here -->
+  
+    <button type="submit">Send</button>
+  </form>
+  
+
+</main>
 </body>
