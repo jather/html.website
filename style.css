@@ -54,7 +54,7 @@ body {
     letter-spacing: 0.015em;
   }
 
-  main {
+main {
       width:800px;
       margin:auto;
   }
@@ -66,16 +66,17 @@ a:hover {
     color:coral;
 }
 h1{
-    font-size: 70px;
+    font-size: 90px;
     color:#DDDDDD;
-    margin: 200px auto 90px auto;
+    margin: 200px auto 40px auto;
     text-align: left;
     width: 800px;
-    font-family: 'montserratlight', sans-serif
+    font-family: 'montserratlight', sans-serif;
 }
 h2{
     font-size: 40px;
     color:#dddddd;
+    font-family: 'montserratlight', sans-serif;
 }
 
 #navbar{
