@@ -34,11 +34,19 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'montserratlight';
+    src: url('/fonts/montserrat-light-webfont.woff') format('woff2'),
+         url('/fonts/montserrat-light-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body {
     background-color: #242424;
     color: #d9d9d9;
-    font-family: 'charterregular', sans-serif;
+    font-family: 'charterregular', serif;
     
     font-size: 20px;
     line-height: 30px;
@@ -63,6 +71,7 @@ h1{
     margin: 200px auto 90px auto;
     text-align: left;
     width: 800px;
+    font-family: 'montserratlight', sans-serif
 }
 h2{
     font-size: 40px;
