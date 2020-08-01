@@ -55,7 +55,7 @@ body {
   }
 
 main {
-      width:600px;
+      width:700px;
       margin:auto;
   }
 a {
@@ -109,7 +109,7 @@ nav li {
     margin-right: 2%;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     main{
         max-width: 100%;
         margin:0;
@@ -119,5 +119,6 @@ nav li {
     }
 }
 em {
-    color: goldenrod;
+    color: transparent;
+    text-shadow: 1 1 2px white, 0 0 25px rgb(255, 238, 105);
 }
