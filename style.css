@@ -109,7 +109,7 @@ nav li {
     margin-right: 2%;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 600px) {
     main{
         max-width: 100%;
         margin:0;
