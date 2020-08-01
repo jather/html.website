@@ -55,7 +55,7 @@ body {
   }
 
 main {
-      width:800px;
+      width:600px;
       margin:auto;
   }
 a {
@@ -109,3 +109,9 @@ nav li {
     display: inline;
     margin-right: 2%;
   }
+
+  @media (max-width: 900px) {
+    #main{
+        max-width:100%;
+    }
+}
