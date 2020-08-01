@@ -118,3 +118,6 @@ nav li {
         font-size:20px;
     }
 }
+em {
+    color: goldenrod;
+}
