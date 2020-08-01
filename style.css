@@ -111,7 +111,7 @@ nav li {
   }
 
   @media (max-width: 900px) {
-    #main{
+    main{
         max-width:100%;
     }
 }
