@@ -124,13 +124,22 @@ nav li {
     margin-right: 2%;
   }
 
-  @media (max-width: 650px) {
+  @media (max-width: 680px) {
     main{
-        max-width: 100%;
-        margin:0;
+        max-width: 90%;
+    }
+    nav ul{
+        margin-top: -20px;
+        padding: 0px 0px 0px 10%;
     }
     nav li{
         font-size:20px;
+    }
+    h1 {
+        font-size:50px;
+        margin-top:80px;
+        margin-bottom:40px;
+        text-align: center;
     }
 }
 .glow {
