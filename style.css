@@ -133,7 +133,16 @@ nav li {
         font-size:20px;
     }
 }
-em {
-    color: rgb(255, 230, 202);
-    text-shadow: 0 0 15px rgb(255, 182, 121), 0 0 20px rgb(255, 182, 121), 0 0 25px rgb(255, 182, 121), 0 0 30px rgb(255, 182, 121), 0 0 35px rgb(255, 182, 121); 
+.glow {
+    color: #ececad;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #F57122, 0 0 10px #F57122, 0 0 15px #F57122, 0 0 20px #F57122, 0 0 25px #F57122, 0 0 30px #F57122, 0 0 35px #F57122;
+  }
+  to {
+    text-shadow: 0 0 10px #F57122, 0 0 20px #F57122, 0 0 30px #F57122, 0 0 40px #F57122, 0 0 50px #F57122, 0 0 60px #F57122, 0 0 70px #F57122;
+  }
 }
