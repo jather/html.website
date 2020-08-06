@@ -144,9 +144,10 @@ nav li {
 }
 .glow {
     color: #ececad;
-    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #F57122, 0 0 20px #F57122, 0 0 30px #F57122, 0 0 40px #F57122, 0 0 50px #F57122, 0 0 60px #F57122, 0 0 70px #F57122;
+    /* animation: glow 1s ease-in-out infinite alternate; */
 }
-
+/*
 @keyframes glow {
   from {
     text-shadow: 0 0 5px #F57122, 0 0 10px #F57122, 0 0 15px #F57122, 0 0 20px #F57122, 0 0 25px #F57122, 0 0 30px #F57122, 0 0 35px #F57122;
@@ -155,3 +156,4 @@ nav li {
     text-shadow: 0 0 10px #F57122, 0 0 20px #F57122, 0 0 30px #F57122, 0 0 40px #F57122, 0 0 50px #F57122, 0 0 60px #F57122, 0 0 70px #F57122;
   }
 }
+*/
