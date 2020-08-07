@@ -55,7 +55,7 @@ body {
   }
 
 main {
-      width:650px;
+      width:700px;
       margin:auto;
   }
 
@@ -124,7 +124,7 @@ nav li {
     margin-right: 2%;
   }
 
-  @media (max-width: 680px) {
+  @media (max-width: 720px) {
     main{
         max-width: 90%;
     }
