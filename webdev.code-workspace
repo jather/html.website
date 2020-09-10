@@ -1,13 +1,19 @@
 {
 	"folders": [
 		{
+			"name": "gatsby-homepage",
+			"path": "..\\gatsby-homepage"
+		},
+		{
+			"name": "html.website",
 			"path": "."
 		},
 		{
+			"name": "projects",
 			"path": "..\\projects"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "projects"
+		"liveServer.settings.multiRootWorkspaceName": "html.website"
 	}
 }
