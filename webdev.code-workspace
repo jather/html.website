@@ -11,6 +11,9 @@
 		{
 			"name": "projects",
 			"path": "..\\projects"
+		},
+		{
+			"path": "..\\..\\..\\Desktop\\fonts"
 		}
 	],
 	"settings": {
