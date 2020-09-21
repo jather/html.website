@@ -15,27 +15,94 @@
     font-style: normal;
     font-display: swap;
   }
+
+  @font-face {
+    font-family: 'charterregular';
+    src: url('fonts/charter_regular-webfont.woff2') format('woff2'),
+         url('fonts/charter_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Merriweather-Light';
+    src: url('fonts/Merriweather-Light.woff2') format('woff2'),
+         url('fonts/Merriweather-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Proza-Libre';
+    src: url('fonts/ProzaLibre-Regular.woff2') format('woff2'),
+         url('fonts/ProzaLibre-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Cormorant-Bold';
+    src: url('fonts/Cormorant-Bold.woff2') format('woff2'),
+         url('fonts/Cormorant-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Cormorant-Regular';
+    src: url('fonts/Cormorant-Regular.woff2') format('woff2'),
+         url('fonts/Cormorant-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Cormorant-LightItalic';
+    src: url('fonts/Cormorant-LightItalic.woff2') format('woff2'),
+         url('fonts/Cormorant-LightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ProzaLibre-Light';
+    src: url('fonts/ProzaLibre-Light.woff2') format('woff2'),
+         url('fonts/ProzaLibre-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'CormorantSC-Light';
+    src: url('fonts/CormorantSC-Light.woff2') format('woff2'),
+         url('fonts/CormorantSC-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
     background-color:#323E4F;
      font-variant-ligatures: common-ligatures;
+     font-variant-alternates: ornaments(1, 2, 3, 4, 5, 6, 7);
     font-kerning: normal;   
-    color: #FBE4D5;
-    font-family: 'Cardo-Regular', serif;
-    
-    font-size: 20px;
-    line-height: 30px;
-    word-spacing: 0.03em;
-    letter-spacing: 0.015em;
+    color: #f7dbca;
+    font-family: 'ProzaLibre-Light', serif;
+    font-size: 28px;
+    line-height: 42px;
   }
+p {
+    margin-top:2em;
+    margin-bottom:0px;
+}
 
 main {
-      width:700px;
+      width:1000px;
       margin:auto;
   }
 
 a {
     color:#eeeeee;
-    border-bottom: 5px solid #AAAAAA;
+    border-bottom: 6px solid #AAAAAA;
     text-decoration: none;
     }
 a:hover{
@@ -51,17 +118,19 @@ a:hover{
 }
 
 h1{
-    font-size: 90px;
-    color:#EEEEEE;
-    margin: 200px auto 60px auto;
-    text-align: left;
+    font-size: 200px;
+    color:#f7dbca;
+    margin: 200px auto 150px auto;
+    text-align: center;
     font-family: 'Cormorant-Light', sans-serif;
-    text-decoration: normal;
+    font-weight: normal;
+    line-height: 150px;
 }
 h2{
     font-size: 40px;
-    color:#dddddd;
+    color:#FBE4D5;
     font-family: 'Cormorant-Light', sans-serif;
+    font-weight: normal;
 }
 h3{
     color:#dddddd;
@@ -93,8 +162,8 @@ nav ul{
     padding: 0px 0px 0px 30%;
 }
 nav li {
-    font-family:"charterregular";
-    font-size: 35px;
+    font-family:"ProzaLibre-Light";
+    font-size: 40px;
     display: inline;
     margin-right: 2%;
   }
@@ -117,11 +186,13 @@ nav li {
         text-align: center;
     }
 }
+
 .glow {
     color: #ececad;
     text-shadow: 0 0 10px #F57122, 0 0 20px #F57122, 0 0 30px #F57122, 0 0 40px #F57122, 0 0 50px #F57122, 0 0 60px #F57122, 0 0 70px #F57122;
     /* animation: glow 1s ease-in-out infinite alternate; */
 }
+
 /*
 @keyframes glow {
   from {
